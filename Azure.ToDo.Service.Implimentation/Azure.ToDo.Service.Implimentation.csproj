@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Azure.ToDo.Infrastructure\Azure.ToDo.Infrastructure.csproj" />
+    <ProjectReference Include="..\Azure.ToDo.Message\Azure.ToDo.Message.csproj" />
+    <ProjectReference Include="..\Azure.ToDo.Service\Azure.ToDo.Service.csproj" />
+  </ItemGroup>
+
+</Project>
